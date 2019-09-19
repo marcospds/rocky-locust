@@ -140,3 +140,6 @@
 /rocky-locust-backend/.sts4-cache/
 
 # End of https://www.gitignore.io/api/java,maven,angular,eclipse
+
+rocky-locust-frontend/.editorconfig
+
