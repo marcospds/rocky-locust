@@ -4,7 +4,8 @@
 [![Java](https://img.shields.io/badge/Java-11-blue?style=socyal&logo=java)][java]
 [![Quarkus](https://img.shields.io/badge/Quarkus-0.22.0-blue?style=socyal&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4wkTDDEmDvIipwAAAqpJREFUOMuVlF1IFFEUx393dnbdIvvSyZJQgzb6QivEhKgIcUKDpKACsaCQCqYgH+rBhSgIekgqioneoqIX+yDE9mEeCuohC8WspAeh8CWEqV1RW3dn3b293GTb2kUHhrlz7zn/8z/3/M8Rpu1qwA7gIhACfMzvSQN9QKdjGV+Fabs7gdfq0AMy8wQMABowAdTpihnAY/VmADzdn5GakEWel8s4BfjVWqqMrgDrgPO6StMDuh3LeMKsZXUZpNKCLz+y0UzbrXUsoz9nb5cCrNBUhMy/qa4OwZohSfMVgN13oitM230OPDRtV+SwTqqv0PJfjQSkYHlx2Dt7d8ysWfShSBctUuKbKeCm5weMjnP0UIpzLfi3rS3rBPrKi3k6GB/vOrhMzgtwS5e78s4GebK9saQv4NemgI0A9VWBN5uqArFr2r5LZORVQSSZ66vl5IhpuxdKihiO6cFTmk/bD8SA28A9oLQYGpCEgWFJ8+FCDKVpu36gEliiAuhK9KuAKLBBKcIHLAXKCzHUHMtIOZZhTc5QU5qMvyaelNkVAohm0BHiPrBZELk5pzt832EMv1t24AaNdfWcbg6yp9rvpaXv7TePno/T2vVM7/H5Vzk2HaT7VYCXQ9rMcfPZ5abWhZ9HprbFU5KtD1Ji8Jj/v5UuoEMtAPpHfkzU+q+d6BgY9c4kZmSbJkgYk+P5vQo0fU88uKBWEBkwbfeAjCf3OpbxCCh3LGNOOvzLSBCZIgFNt8ZEGm6qidTrWEYsT1vNMkxnjaB/h53P1w5UANtN2w3lIbY4m2G/0t4l03brlc7+RE0CZ9R/CGgARkzbXQ+0A9NKs0eU/bBQUT8BRXMYpi+ANuCXAvNlBf8O1AjVbpvVoK0ERB4wodi3OpYxatpuGDgMJIBBIOxYxs/fnWTtZKLQ2JoAAAAASUVORK5CYII=)][quarkus]
 [![Angular](https://img.shields.io/badge/Angular-8-blue?style=socyal&logo=angular)][Angular]
-## Web GUI to create [Locust][locust] tests script
+
+## Web GUI to create [Locust][locust] test scripts
 
 The project was separate into two parts.
 
