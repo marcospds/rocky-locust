@@ -1,25 +1,142 @@
-target/
+# Created by https://www.gitignore.io/api/java,maven,angular,eclipse
+# Edit at https://www.gitignore.io/?templates=java,maven,angular,eclipse
 
+### Angular ###
+## Angular ##
+# compiled output
+/rocky-locust-frontend/dist
+/rocky-locust-frontend/tmp
+/rocky-locust-frontend/app/**/*.js
+/rocky-locust-frontend/app/**/*.js.map
+
+# dependencies
+/rocky-locust-frontend/node_modules
+/rocky-locust-frontend/bower_components
+
+# IDEs and editors
+/rocky-locust-frontend/.idea
+
+# misc
+/rocky-locust-frontend/.sass-cache
+/rocky-locust-frontend/connect.lock
+/rocky-locust-frontend/coverage/*
+/rocky-locust-frontend/libpeerconnection.log
+/rocky-locust-frontend/npm-debug.log
+/rocky-locust-frontend/testem.log
+/rocky-locust-frontend/typings
+
+# e2e
+/rocky-locust-frontend/e2e/*.js
+/rocky-locust-frontend/e2e/*.map
+
+#System Files
+/rocky-locust-frontend/.DS_Store
+
+### Java ###
 # Compiled class file
-*.class
+/rocky-locust-backend/*.class
 
 # Log file
-*.log
+/rocky-locust-backend/*.log
 
 # BlueJ files
-*.ctxt
+/rocky-locust-backend/*.ctxt
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
+/rocky-locust-backend/.mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+/rocky-locust-backend/*.jar
+/rocky-locust-backend/*.war
+/rocky-locust-backend/*.nar
+/rocky-locust-backend/*.ear
+/rocky-locust-backend/*.zip
+/rocky-locust-backend/*.tar.gz
+/rocky-locust-backend/*.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+/rocky-locust-backend/hs_err_pid*
+
+### Maven ###
+/rocky-locust-backend/target/
+/rocky-locust-backend/pom.xml.tag
+/rocky-locust-backend/pom.xml.releaseBackup
+/rocky-locust-backend/pom.xml.versionsBackup
+/rocky-locust-backend/pom.xml.next
+/rocky-locust-backend/release.properties
+/rocky-locust-backend/dependency-reduced-pom.xml
+/rocky-locust-backend/buildNumber.properties
+/rocky-locust-backend/.mvn/timing.properties
+/rocky-locust-backend/.mvn/wrapper/maven-wrapper.jar
+
+
+### Eclipse ###
+/rocky-locust-backend/.metadata
+/rocky-locust-backend/bin/
+/rocky-locust-backend/tmp/
+/rocky-locust-backend/*.tmp
+/rocky-locust-backend/*.bak
+/rocky-locust-backend/*.swp
+/rocky-locust-backend/*~.nib
+/rocky-locust-backend/local.properties
+/rocky-locust-backend/.settings/
+/rocky-locust-backend/.loadpath
+/rocky-locust-backend/.recommenders
+
+# External tool builders
+/rocky-locust-backend/.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+/rocky-locust-backend/*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+/rocky-locust-backend/*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+/rocky-locust-backend/.cproject
+
+# CDT- autotools
+/rocky-locust-backend/.autotools
+
+# Java annotation processor (APT)
+/rocky-locust-backend/.factorypath
+
+# PDT-specific (PHP Development Tools)
+/rocky-locust-backend/.buildpath
+
+# sbteclipse plugin
+/rocky-locust-backend/.target
+
+# Tern plugin
+/rocky-locust-backend/.tern-project
+
+# TeXlipse plugin
+/rocky-locust-backend/.texlipse
+
+# STS (Spring Tool Suite)
+/rocky-locust-backend/.springBeans
+
+# Code Recommenders
+/rocky-locust-backend/.recommenders/
+
+# Annotation Processing
+/rocky-locust-backend/.apt_generated/
+
+# Scala IDE specific (Scala & Java development for Eclipse)
+/rocky-locust-backend/.cache-main
+/rocky-locust-backend/.scala_dependencies
+/rocky-locust-backend/.worksheet
+
+### Eclipse Patch ###
+# Eclipse Core
+/rocky-locust-backend/.project
+
+# JDT-specific (Eclipse Java Development Tools)
+/rocky-locust-backend/.classpath
+
+# Annotation Processing
+/rocky-locust-backend/.apt_generated
+
+/rocky-locust-backend/.sts4-cache/
+
+# End of https://www.gitignore.io/api/java,maven,angular,eclipse

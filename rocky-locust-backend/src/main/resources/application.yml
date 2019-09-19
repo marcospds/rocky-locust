@@ -1,0 +1,5 @@
+quarkus:
+  datasource:
+    url: jdbc:h2:tcp://localhost/mem:default
+    driver: org.h2.Driver
+    username: sa
