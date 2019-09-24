@@ -6,13 +6,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectService } from './service/project.service';
+import { HostService } from './service/host.service';
 import { ProjectFormComponent } from './project-form/project-form.component';
+import { ProjectViewComponent } from './project-view/project-view.component';
  
 @NgModule({
   declarations: [
     AppComponent,
     ProjectListComponent,
-    ProjectFormComponent
+    ProjectFormComponent,
+    ProjectViewComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +23,7 @@ import { ProjectFormComponent } from './project-form/project-form.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [ProjectService],
+  providers: [ProjectService, HostService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

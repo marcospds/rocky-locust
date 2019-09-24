@@ -3,14 +3,17 @@
     <table class="table table-bordered table-striped">
       <thead class="thead-dark">
         <tr>
+          <th scope="col" colspan="2">{{ id }}</th>
+        </tr>  
+        <tr>
           <th scope="col">#</th>
           <th scope="col">Name</th>
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let project of projects">
-          <td>{{ project.id }}</td>
-          <td><a href="/projects/{{ project.id }}">{{ project.name }}</a></td>
+        <tr *ngFor="let host of hosts">
+          <td>{{ host.id }}</td>
+          <td>{{ host.domain }}</td>
         </tr>
       </tbody>
     </table>
