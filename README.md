@@ -12,7 +12,7 @@ The project was separate into two parts.
 * rocky-locust-backend: The back-end is built in [Java] with  [Quarkus][quarkus].
 * rocky-locust-frontend: The front-end is built in [Angular][angular] _(possibly in the future [Portinari UI][portinari])_.
 
-[portinari]: https://portinari.io
+[portinari]: https://po-ui.io/
 [quarkus]: https://quarkus.io
 [angular]: https://angular.io
 [java]: https://www.java.com
