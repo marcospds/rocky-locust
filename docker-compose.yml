@@ -1,0 +1,44 @@
+version: '3'
+
+networks:
+  docker-network:
+    driver: bridge
+
+services:
+  rocky-db:
+    image: sameersbn/postgresql:10-1
+    container_name: rocky-db
+    networks:
+      - docker-network
+    environment:
+      DB_NAME: rocky
+      DB_USER: postgres
+      DB_PASS: postgres
+      PG_PASSWORD: postgres
+    ports: 
+      - 5432:5432
+
+  rocky-backend:
+    image: rocky
+    container_name: rocky-backend
+    command: ./runner
+    restart: always
+    networks:
+      - docker-network
+    environment:
+      DATABASE: rocky-db
+      FRONTEND: localhost
+    ports: 
+      - 8080:8080
+    depends_on:  
+      - "rocky-db"
+
+  rocky-frontend:
+    image: rocky
+    container_name: rocky-frontend
+    command: httpd -f -p 80 -h /www
+    networks:
+      - docker-network
+    ports: 
+      - 8081:80
+
