@@ -27,7 +27,7 @@ npm run start
 ```
 Open http://localhost:3000
 
-## Docker Image
+## Build Docker Image
 
 The Dockerfile create docker image base busybox with backend Quarkus native runner and frontend Angular build prod dist.
 
@@ -35,6 +35,13 @@ Build image exec command:
 ```console
 docker build -t rocky .
 ```
+
+This build crate small image:
+![image](https://user-images.githubusercontent.com/8590404/122627955-71023880-d089-11eb-9cbd-7bf68a69ae3f.png)
+And container use little resources:
+![image](https://user-images.githubusercontent.com/8590404/122627982-ab6bd580-d089-11eb-8d13-511ec9aeb77f.png)
+
+## Run Docker Image
 
 Run image exec command: 
 ```console
