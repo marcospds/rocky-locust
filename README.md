@@ -15,24 +15,40 @@ The project was separate into two parts.
 ## DEV
 
 Exec command in rocky-locust-backend: 
+```console
 mvn quarkus:dev
+```
 Open http://localhost:8080
 
 Exec commands in rocky-locust-frontend: 
+```console
 npm install
 npm run start
+```
 Open http://localhost:3000
 
 ## Docker Image
 
 The Dockerfile create docker image base busybox with backend Quarkus native runner and frontend Angular build prod dist.
 
-Build image exec command: docker build -t rocky .
+Build image exec command:
+```console
+docker build -t rocky .
+```
 
-Run image exec command: docker run -d -p 8080:8080 rocky
-Or use docker-compose exec command: docker-compose up -d
+Run image exec command: 
+```console
+docker run -d -p 8080:8080 rocky
+```
+Or use docker-compose exec command: 
+```console
+docker-compose up -d
+```
 
-See log exec command: docker logs rocky -f
+See log exec command: 
+```console
+docker logs rocky -f
+```
 
 Open http://localhost:8080
 
