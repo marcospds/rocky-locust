@@ -1,14 +1,15 @@
 package com.marcospdss.rockylocust.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+//import javax.persistence.Entity;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.Id;
 
-@Entity
+//h2 memory not work in native quarkus - simulate jdbc
+//@Entity
 public class Project {
 
-	@Id
-	@GeneratedValue
+	//@Id
+	//@GeneratedValue
 	private Long id;
 
 	private String name;

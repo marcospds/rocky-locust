@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ProjectListComponent } from './project-list/project-list.component';
 import { ProjectService } from './service/project.service';
 import { ProjectFormComponent } from './project-form/project-form.component';
+import { PoModule } from '@po-ui/ng-components';
+import { RouterModule } from '@angular/router';
  
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ProjectFormComponent } from './project-form/project-form.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    PoModule,
+    RouterModule.forRoot([])
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]

@@ -9,7 +9,7 @@ export class ProjectService {
   private projectsUrl: string;
  
   constructor(private http: HttpClient) {
-    this.projectsUrl = 'http://localhost:8080/projects';
+    this.projectsUrl = '/api/projects';
   }
  
   public findAll(): Observable<Project[]> {
